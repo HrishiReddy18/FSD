@@ -5,6 +5,11 @@
 	git config --list
 3. git clone
 4. go to the path of project that is cloned like (member-shell, bereavements), git status
-5. After change
+5. After change,
 	git add <file-name> {if many files ===> git add .}   ------> In VsCode clicking on Stage (+)
 	git commit -m <some message>   {to maintain the record of change in branch} --------> In VsCode clicking on commit 
+	git push -------------------> In vsCode Sync Changes
+
+	git push origin main 
+		  (origin ===> remote github repo name, we can give any other name also)
+	 	  (main ===> It is a branch)
